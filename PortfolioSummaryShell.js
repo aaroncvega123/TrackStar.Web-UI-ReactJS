@@ -16,7 +16,9 @@ class Content extends React.Component {
         return (
             <div class="no-outter-padding">
                 <PortfolioInformation />
+                <br/><br/>
                 <HistoricalPortfolio_BenchmarkReturns />
+                <br/><br/>
                 <ReturnDetail />
             </div>
         );

@@ -8,29 +8,63 @@ class PeriodEndMarketValues extends React.Component {
                 <div>
                     Period End Market Values
                 </div>
-                <ul>
-                    <li>Equity: 100</li>
-                    <li>Cash: 100</li>
-                    <li>Total: 100</li>
-                    <li>Previous: 100</li>
-                </ul>
+                <table >
+	<tbody>
+		<tr>
+			<td>Equity:</td>
+			<td><input type="text" readOnly/></td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+	</tbody>
+</table>
             </div>
         
         );
     }
 }
 
+
+
+
+
 class ReturnDetailTable extends React.Component{
     render(){
         return(
             <table class="table">
                 <thead>
-                    <th class="col-xs-1">PT Port</th>
-                    <th class="col-xs-1">PT Bench</th>
-                    <th class="col-xs-1">PT Diff</th>
-                    <th class="col-xs-1">AT Port</th>
-                    <th class="col-xs-1">AT Bench</th>
-                    <th class="col-xs-1">AT Diff</th> 
+                    <th class="col-xs-1">
+                        <button>PT Port</button>
+                    </th>
+                    <th class="col-xs-1">
+                        <button> PT Bench</button>
+                    </th>
+                    <th class="col-xs-1">
+                        <button>PT Diff</button>
+                    </th>
+                    <th class="col-xs-1">
+                        <button>AT Port</button>
+                    </th>
+                    <th class="col-xs-1">
+                        <button>AT Bench</button>
+                    </th>
+                    <th class="col-xs-1">
+                        <button>AT Diff</button>
+                    </th>
                 </thead>
                 <tbody>
                     <tr>
@@ -143,9 +177,11 @@ class ReturnDetailTable extends React.Component{
 class ReturnDetail extends React.Component{
     render(){
         return(
-            <div class="col-xs-12 row">
-                <div >
-                    Return Detail
+            <div class="container">
+                <div class="col-xs-12 row object-border no-outter-padding gradient">
+                    <div class="module-header-1">    
+                        Return Detail
+                    </div>
                 </div>
                 <div class="col-xs-12 row ">
                     <div class="col-xs-3">
