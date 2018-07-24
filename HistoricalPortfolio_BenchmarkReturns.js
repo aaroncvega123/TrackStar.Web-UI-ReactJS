@@ -7,7 +7,7 @@ class HistoricalPortfolio_BenchmarkReturns extends React.Component {
     render() {
         return (
             <div class="container">
-                <div class="col-xs-12 row object-border no-outter-padding gradient">
+                <div class="col-xs-12 row object-border no-outter-padding module-header-gradient-1">
                     <div class="module-header-1">
                         Historical Portfolio and Benchmark Returns
                     </div>

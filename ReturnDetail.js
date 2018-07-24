@@ -68,105 +68,68 @@ class ReturnDetailTable extends React.Component{
                 </thead>
                 <tbody>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-            
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                     <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
-                    </tr>
-                    <tr>
-                    <td class="col-xs-3">John</td>
-                    <td class="col-xs-3">Doe</td>
-                    <td class="col-xs-6">johndoe@email.com</td>
+                        <td class="col-xs-1">1.7 m</td>
+                        <td class="col-xs-1">1.8 m</td>
+                        <td class="col-xs-1">0.1 m</td>
+                        <td class="col-xs-1">2.1 m m</td>
+                        <td class="col-xs-1">2.2 m</td>
+                        <td class="col-xs-1">0.1 m</td>
                     </tr>
                 </tbody>
             </table>
@@ -178,7 +141,7 @@ class ReturnDetail extends React.Component{
     render(){
         return(
             <div class="container">
-                <div class="col-xs-12 row object-border no-outter-padding gradient">
+                <div class="col-xs-12 row object-border no-outter-padding module-header-gradient-1">
                     <div class="module-header-1">    
                         Return Detail
                     </div>

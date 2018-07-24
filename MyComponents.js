@@ -10,8 +10,12 @@ class MyComponents extends React.Component {
     render() {
         return (
             <div>
-                <ReportApp />
-                <PortfolioSummaryShell />
+                <div class="application">
+                    <ReportApp />
+                </div>
+                <div class="application">
+                    <PortfolioSummaryShell />
+                </div>
             </div>
         );
     }

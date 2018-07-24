@@ -5,7 +5,7 @@ class ParametricFormBox extends React.Component{
     render(){
         return(
             <div>
-                <div class="row object-border gradient">
+                <div class="row object-border module-header-gradient-2">
                     <div class = "module-header-2 ">
                         Parametric
                     </div>
@@ -31,7 +31,7 @@ class CustodianFormBox extends React.Component{
     render(){
         return(
             <div>
-                <div class="row object-border gradient">
+                <div class="row object-border module-header-gradient-2">
                     <div class = "module-header-2 ">
                         Custodian
                     </div>
@@ -56,7 +56,7 @@ class BenchmarkFormBox extends React.Component{
     render(){
         return(
             <div>
-                <div class="row object-border gradient">
+                <div class="row object-border module-header-gradient-2">
                     <div class = "module-header-2 ">
                         Benchmark
                     </div>
@@ -85,7 +85,7 @@ class HistoryFormBox extends React.Component{
 
         return(
             <div>
-                <div class="row object-border gradient">
+                <div class="row object-border module-header-gradient-2">
                     <div class = "module-header-2 ">
                         History
                     </div>
@@ -115,7 +115,7 @@ class PortfolioInformation extends React.Component{
     render(){
         return(
             <div class="container">
-                <div class="col-xs-12 row object-border no-outter-padding gradient">
+                <div class="col-xs-12 row object-border no-outter-padding module-header-gradient-1">
                     <div class="module-header-1">
                         Portfolio Information
                     </div>
