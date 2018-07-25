@@ -2,38 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class PeriodEndMarketValues extends React.Component {
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <div>
-                    Period End Market Values
+                <div class="row module-header-gradient-2">
+                    <div class="module-header-2 ">
+                        Period End Market Values
+                    </div>
                 </div>
-                <table >
-	<tbody>
-		<tr>
-			<td>Equity:</td>
-			<td><input type="text" readOnly/></td>
-		</tr>
-		<tr>
-			<td> </td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td> </td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td> </td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td> </td>
-			<td> </td>
-		</tr>
-	</tbody>
-</table>
+                <div>
+                    Equity:<br />
+                    <input type="text" readOnly />
+                </div>
+                <div>
+                    Cash:<br />
+                    <input type="text" readOnly />
+                </div>
+                <div>
+                    Total:<br />
+                    <input type="text" readOnly />
+                </div>
+                <div>
+                    Previous:<br />
+                    <input type="text" readOnly />
+                </div>
+                <br />
             </div>
-        
+
         );
     }
 }
@@ -42,28 +37,28 @@ class PeriodEndMarketValues extends React.Component {
 
 
 
-class ReturnDetailTable extends React.Component{
-    render(){
-        return(
+class ReturnDetailTable extends React.Component {
+    render() {
+        return (
             <table class="table">
                 <thead>
-                    <th class="col-xs-1">
-                        <button>PT Port</button>
+                    <th class="th-sm">PT Port
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                     </th>
-                    <th class="col-xs-1">
-                        <button> PT Bench</button>
+                    <th class="th-sm">PT Bench
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                     </th>
-                    <th class="col-xs-1">
-                        <button>PT Diff</button>
+                    <th class="th-sm">PT Diff
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                     </th>
-                    <th class="col-xs-1">
-                        <button>AT Port</button>
+                    <th class="th-sm">AT Port
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                     </th>
-                    <th class="col-xs-1">
-                        <button>AT Bench</button>
+                    <th class="th-sm">AT Bench
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                     </th>
-                    <th class="col-xs-1">
-                        <button>AT Diff</button>
+                    <th class="th-sm">AT Diff
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                     </th>
                 </thead>
                 <tbody>
@@ -137,17 +132,17 @@ class ReturnDetailTable extends React.Component{
     }
 }
 
-class ReturnDetail extends React.Component{
-    render(){
-        return(
+class ReturnDetail extends React.Component {
+    render() {
+        return (
             <div class="container">
                 <div class="col-xs-12 row object-border no-outter-padding module-header-gradient-1">
-                    <div class="module-header-1">    
+                    <div class="module-header-1">
                         Return Detail
                     </div>
                 </div>
-                <div class="col-xs-12 row ">
-                    <div class="col-xs-3">
+                <div class="col-xs-12 row no-outter-padding">
+                    <div class="col-xs-3 object-border">
                         <PeriodEndMarketValues />
                     </div>
                     <div class="col-xs-9">

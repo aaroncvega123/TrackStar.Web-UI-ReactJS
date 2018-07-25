@@ -6,41 +6,41 @@ import ReactDOM from 'react-dom';
 class HistoricalPortfolio_BenchmarkReturns extends React.Component {
     render() {
         return (
-            <div class="container">
-                <div class="col-xs-12 row object-border no-outter-padding module-header-gradient-1">
+            <div class="container no-outter-padding">
+                <div class="col-xs-12 row object-border no-padding-right module-header-gradient-1">
                     <div class="module-header-1">
                         Historical Portfolio and Benchmark Returns
                     </div>
-                </div>    
+                </div>
                 <table class="table">
                     <thead>
                         <tr>
-                            <th class="col-xs-1">
-                                <button>YearMonth</button>
+                            <th class="th-sm">YearMonth
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>Year</button>
+                            <th class="th-sm">Year
+                                     <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>Qtr</button>
+                            <th class="th-sm">Qtr
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>PT Port</button>
+                            <th class="th-sm">PT Port
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button> PT Bench</button>
+                            <th class="th-sm">PT Bench
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>PT Diff</button>
+                            <th class="th-sm">PT Diff
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>AT Port</button>
+                            <th class="th-sm">AT Port
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>AT Bench</button>
+                            <th class="th-sm">AT Bench
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
-                            <th class="col-xs-1">
-                                <button>AT Diff</button>
+                            <th class="th-sm">AT Diff
+                                    <i class="fa fa-sort float-left" aria-hidden="true"></i>
                             </th>
                         </tr>
                     </thead>

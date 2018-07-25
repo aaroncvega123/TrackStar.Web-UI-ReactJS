@@ -6,7 +6,7 @@ import ReturnDetail from '.\\ReturnDetail';
 
 class PortfolioSummaryShell extends React.Component {
     render() {
-        return createPanel(<Content/>);
+        return createPanel(<Content />);
     }
 }
 
@@ -16,18 +16,18 @@ class Content extends React.Component {
         return (
             <div class="no-outter-padding">
                 <PortfolioInformation />
-                <br/><br/>
+                <br />
                 <HistoricalPortfolio_BenchmarkReturns />
-                <br/><br/>
+                <br />
                 <ReturnDetail />
             </div>
         );
     }
 }
 
-function createPanel(component){
-    return(
-        <div class = "panel-group" >
+function createPanel(component) {
+    return (
+        <div class="panel-group" >
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
